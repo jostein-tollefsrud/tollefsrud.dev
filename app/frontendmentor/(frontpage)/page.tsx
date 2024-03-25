@@ -16,6 +16,14 @@ export default function FrontendmentorHome() {
 						QR code component
 					</Link>
 				</li>
+				<li>
+					<Link
+						href="/frontendmentor/blog-preview-card"
+						className={clsx('underline', 'hover:no-underline', 'text-blue-600')}
+					>
+						Blog preview card
+					</Link>
+				</li>
 			</ul>
 		</Container>
 	);
